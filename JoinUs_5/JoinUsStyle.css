@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: 14px;
+    color: #333;
+    font-family: "微软雅黑";
+    margin: 0 auto;
+    line-height: 25px;
+    background-color: #FFF;
+}
+div{
+	display: block;
+}
+a{
+	color: #666;
+	text-decoration: none;
+	outline: none;
+}
+a:hover{
+	color: #4b97db;
+}
+
+i{
+	display: block;
+	margin: 0 auto;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.xz_nav{
+	height: 79px;
+	line-height: 79px;
+	background: #fff;
+}
+.w_1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.boy_band{
+	float: left;
+}
+.boy_band i{
+	display: inline-block;
+	vertical-align: middle;
+	background: url(images/xz.png) no-repeat 0 0;
+	width: 203px;
+	height: 44px;
+}
+.xz_nav ul{
+	float: right;
+}
+.xz_nav ul li{
+	float: left;
+}
+.xz_nav ul li.on a{
+	background: #11b273;
+	color: #fff;
+	font-weight: bold;
+}
+.xz_nav ul li a{
+	display: block;
+	font-size: 16px;
+	padding: 0 30px;
+	background: #fff;
+}
