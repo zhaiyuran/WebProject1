@@ -32,7 +32,11 @@ ul,li{
 	padding: 0;
 	list-style: none;
 }
-
+h3{
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
 .xz_nav{
 	height: 79px;
 	line-height: 79px;
@@ -69,4 +73,237 @@ ul,li{
 	font-size: 16px;
 	padding: 0 30px;
 	background: #fff;
+}
+
+
+.xz_mid1{
+	vertical-align: middle;
+	background: #42415e url(images/bg.jpg) top center no-repeat;
+	max-width: 2000px;
+	height: 1243px;
+	padding-bottom: 30px;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.w_1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.pr{
+	position: relative;
+}
+
+.xz_m{
+	height: 740px;
+}
+
+.xbtn{
+	-webkit-animation: xbtn 2s infinite;
+    -moz-animation: xbtn 2s infinite ;
+    -o-animation: xbtn 2s infinite ;
+    animation: xbtn 2s infinite ;
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    -o-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+@keyframes xbtn{
+	0%{
+		opacity: .1;
+    	
+	}
+	100%{
+		opacity: 1;
+    	
+	}
+}
+.xz_btn1{
+	display: inline-block;
+    vertical-align: middle;
+    background: url(images/pcxt.png) no-repeat;
+    background-size: 100% 100%;
+    width: 208px;
+    height: 76px;
+    top: 226px;
+    left: 682px;
+    position: absolute;
+    cursor: pointer;
+}
+@media screen and (max-width: 1300px){ 
+	.xz_btn1 {
+    top: 210px;
+    left: 590px;
+    background: url(images/btn_2.png) no-repeat;
+    background-size: 100% auto;
+    width: 200px;
+    height: 76px;
+	}
+}
+@media screen and (max-width: 1300px)
+{.min_hei {
+    min-height: 880px;
+}}
+@media screen and (max-width: 1300px)
+{.index_bg {
+    background: #42425e;
+}}
+@media screen and (max-width: 1300px)
+{.xz_mid1 {
+    height: 850px;
+    background-size: auto 100%;
+}}
+@media screen and (max-width: 1300px)
+{.xz_m {
+    height: 500px;
+}}
+@media screen and (max-width: 1300px)
+{.xz_foot1 {
+    margin-top: 40px;
+}}
+.xz_position li{
+	float: left;
+	width: 190px;
+	margin-right: 80px;
+}
+.xz_position li:last-child{
+	margin-right: 0;
+}
+
+.xz_position li a{
+	display: block;
+}
+
+
+.posi i{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.posi_1 i{
+	background: url(images/qiu1.png)center center no-repeat;
+    width: 165px;
+    height: 165px;
+    margin-top: 3px;
+}
+
+.posi_1 .posword, .posi_2 .posword {
+	left: 16px;
+}
+.posi_3 .posword{
+	left: 18px;
+}
+.posi_4 .posword{
+	left: 12px;
+}
+
+.xz_position li .posword{
+	position: relative;
+}
+
+.posi_1 h3{
+	background: #00b7ee;
+
+}
+
+.posi_2 h3{
+	background: #ffc600;
+}
+
+.posi_3 h3{
+	background: #fe5f4b;
+}
+.posi_4 h3{
+	background: #ffc600;
+	margin-left: 10px;
+
+}
+.xz_position{
+	overflow: hidden;
+}
+.xz_position .cl{
+	overflow: hidden;
+}
+.xz_position li h3{
+	font-size: 16px;
+    line-height: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: #272676;
+    margin-top: 10px;
+}
+
+.posi_2 i{
+	background: url(images/qiu2.png)center center no-repeat;
+    width: 165px;
+    height: 172px;
+    margin-top: -3px;
+}
+
+.posi_3 i{
+	background: url(images/qiu3.png)center center no-repeat;
+    width: 165px;
+    height: 179px;
+    margin-top: -10px;
+}
+.posi_4 i{
+	background: url(images/qiu4.png)center center no-repeat;
+    width: 165px;
+    height: 165px;
+    margin-top: 5px;
+}
+
+
+.posi_1 h3:before{
+	content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #00b7ee;
+}
+
+.posi_2 h3:before{
+	content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #ffc600;
+}
+
+.posi_3 h3:before{
+	content: "";
+    display: inline-block;
+    position: absolute;
+    left: 56px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #fe5f4b;
+}
+
+.posi_4 h3:before{
+	content: "";
+    display: inline-block;
+    position: absolute;
+    left: 66px;
+    top: -11px;
+    border: 6px solid transparent;
+    border-bottom-color: #ffc600;
+}
+
+
+.xz_foot1{
+	height: 38px;
+    line-height: 38px;
+    color: #7a789b;
+    background: #383753;
+    text-align: center;
+    font-size: 14px;
 }
